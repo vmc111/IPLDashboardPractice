@@ -1,0 +1,41 @@
+/* Write your CSS here */
+.card {
+  height: 35vh;
+  width: 40vw;
+  border: solid 2px #ffffff;
+  border-radius: 8px;
+  padding: 15px 5px;
+  background-color: #ffffff33;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.team-logo {
+  height: 20vh;
+  margin-right: 2vw;
+}
+.team-name {
+  text-decoration: none;
+  font-size: 24px;
+  color: #ffffff;
+  font-family: bree serif;
+}
+@media all and (max-width: 767px) {
+  .card {
+    width: 140px;
+    height: 100px;
+    margin: 10px 5px;
+  }
+  .team-logo {
+    height: 50px;
+    width: 50px;
+    margin: 1vw;
+  }
+  .team-name {
+    font-size: 12px;
+    text-align: center;
+    font-weight: 100;
+  }
+}
