@@ -1,1 +1,45 @@
 /* Write your CSS here */
+
+.main-card {
+  color: #fff;
+  width: 85%;
+  background-color: #0f172a;
+  padding: 2vw;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+.main-card-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50vw;
+}
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.oponent-logo {
+  width: 200px;
+  height: 200px;
+}
+@media all and (max-width: 767px) {
+  .main-card {
+    width: 90%;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .main-card-2 {
+    padding: 5px 10px;
+    width: 100%;
+    align-items: center;
+    border-bottom: solid 1px #fff;
+  }
+  .oponent-logo {
+    width: 100px;
+    height: 100px;
+  }
+}

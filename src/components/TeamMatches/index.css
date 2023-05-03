@@ -1,1 +1,49 @@
-/* Write your CSS here */
+.bg-matches {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  padding: 10vh 0px;
+}
+.banner-img {
+  height: 50vh;
+  width: 85%;
+}
+
+@media all and (max-width: 767px) {
+  .bg-matches {
+    align-items: center;
+    padding: 5vh 0px;
+  }
+  .banner-img {
+    align-self: center;
+    height: 20vh;
+    width: 90%;
+  }
+}
+
+.red-background {
+  background-image: linear-gradient(to bottom, #d91c1f, #1e293b);
+}
+.navyBlue-red {
+  background-image: linear-gradient(to bottom, #000080, #d91c1f);
+}
+.red-gold {
+  background-image: linear-gradient(to bottom, #d91c1f, gold);
+}
+.purple-gold {
+  background-image: linear-gradient(to bottom, purple, gold);
+}
+.blue-orange {
+  background-image: linear-gradient(to bottom, blue, orange);
+}
+.blue-yellow {
+  background-image: linear-gradient(to bottom, blue, yellow);
+}
+.blue-gold {
+  background-image: linear-gradient(to bottom, blue, gold);
+}
+.red-lightGray {
+  background-image: linear-gradient(to bottom, red, #d3d3d3);
+}
